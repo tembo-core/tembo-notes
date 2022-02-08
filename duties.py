@@ -13,7 +13,7 @@ from urllib.request import urlopen
 from duty import duty
 
 PACKAGE_NAME = "tembo"
-REPO_URL = "https://github.com/tembo-pages/tembo-core"
+REPO_URL = "https://github.com/tembo-core/tembo-notes"
 
 
 @duty(post=["export"])
