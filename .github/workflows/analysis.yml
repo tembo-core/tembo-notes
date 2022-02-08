@@ -46,8 +46,8 @@ jobs:
           source .venv/bin/activate
           pytest -v --cov --junitxml=pytest.xml --suppress-tests-failed-exit-code
           coverage xml -i
-          sed -i 's/\/home\/runner\/work\/tembo-core\/tembo-core\///g' coverage.xml
-          sed -i 's/\/home\/runner\/work\/tembo-core\/tembo-core\///g' pytest.xml
+          sed -i 's/\/home\/runner\/work\/tembo-notes\/tembo-notes\///g' coverage.xml
+          sed -i 's/\/home\/runner\/work\/tembo-notes\/tembo-notes\///g' pytest.xml
       # Build docs
       - name: Build docs
         run: |
