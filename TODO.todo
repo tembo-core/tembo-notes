@@ -8,12 +8,12 @@ Priority:
         ✔ Go over Panaetius @done(21-11-15 21:37)
         ✔ Update docstrings with latest @done(21-11-15 21:37)
         ✔ Write basic README.md page with 2 uses @done(21-11-15 21:37)
-        Script and Module usage
+            Script and Module usage
         ✔ Build and publish latest version @done(21-11-15 21:37)
         ☐ Write Tembo documentation with mkdocs
     ✔ Document duties in Trilium and create a gist for common duties @done(21-11-15 21:37)
     ☐ Document writing documentation in Trilium with example to Trilium
-    ☐ Integrate sonarcloud with CI (github actions?)
+    ✔ Integrate sonarcloud with CI (github actions?) @done(22-01-08 05:03)
 
 Documentation:
     Docstrings:
@@ -26,16 +26,16 @@ Documentation:
         ✔ _version, base command, __init__.py etc @done(21-11-10 22:49)
     ☐ Write documentation using `mkdocs`
     ✔ Create a boilerplate `duties.py` for common tasks for future projects. Put in a gist. @done(21-11-15 21:37)
-    ☐ Look at how to use github actions
+    ✔ Look at how to use github actions @done(22-01-08 05:03)
         Use <https://github.com/pdm-project/pdm/tree/main/.github/workflows> for an example
-        ☐ Build the docs using a github action.
+        ✔ Build the docs using a github action. @done(22-01-08 05:04)
 
 Functionality:
     ✔ Use the python runner Duty @done(21-11-15 21:37)
         <https://github.com/pawamoy/duty>
         ✔ Run tests @done(21-11-10 22:54)
         ✔ Update poetry @done(21-11-10 22:54)
-        ☐ Build docs
+        ✔ Build docs @done(22-01-08 05:04)
         ✔ Document using Duty @done(21-11-15 21:37)
     ✔ Duty for auto insert version from `poetry version`. @done(21-11-09 23:53)
         Need to decide what file to place `__version__` in.
