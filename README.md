@@ -1,8 +1,8 @@
-# Tembo
+# Tembo Notes
 
 <img
-    src="https://raw.githubusercontent.com/tembo-pages/tembo-core/main/assets/tembo_logo.png"
-    width="200px"
+    src="https://github.com/tembo-core/tembo-notes/blob/develop/assets/tembo_notes_banner.png?raw=true"
+    width="750px"
 />
 
 A simple folder organiser for your work notes.
