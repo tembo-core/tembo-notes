@@ -578,6 +578,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../abstract/" class="md-nav__link">
+        abstract.py
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -614,74 +628,6 @@
   <a href="#tembo.journal.pages" class="md-nav__link">
     tembo.journal.pages
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page" class="md-nav__link">
-    Page
-  </a>
-  
-    <nav class="md-nav" aria-label="Page">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page.path" class="md-nav__link">
-    path
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page.__init__" class="md-nav__link">
-    __init__()
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page.save_to_disk" class="md-nav__link">
-    save_to_disk()
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator" class="md-nav__link">
-    PageCreator
-  </a>
-  
-    <nav class="md-nav" aria-label="PageCreator">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator.options" class="md-nav__link">
-    options
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator.__init__" class="md-nav__link">
-    __init__()
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator.create_page" class="md-nav__link">
-    create_page()
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -965,74 +911,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page" class="md-nav__link">
-    Page
-  </a>
-  
-    <nav class="md-nav" aria-label="Page">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page.path" class="md-nav__link">
-    path
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page.__init__" class="md-nav__link">
-    __init__()
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.Page.save_to_disk" class="md-nav__link">
-    save_to_disk()
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator" class="md-nav__link">
-    PageCreator
-  </a>
-  
-    <nav class="md-nav" aria-label="PageCreator">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator.options" class="md-nav__link">
-    options
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator.__init__" class="md-nav__link">
-    __init__()
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tembo.journal.pages.PageCreator.create_page" class="md-nav__link">
-    create_page()
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#tembo.journal.pages.PageCreatorOptions" class="md-nav__link">
     PageCreatorOptions
   </a>
@@ -1154,440 +1032,6 @@
 
 
 
-<h2 id="tembo.journal.pages.Page" class="doc doc-heading">
-        <code>
-Page        </code>
-
-
-
-<a href="#tembo.journal.pages.Page" class="headerlink" title="Permanent link">¤</a></h2>
-
-    <div class="doc doc-contents ">
-
-      <p>Abstract Page class.</p>
-<p>This interface is used to define a <code>Page</code> object.</p>
-<p>A <code>Page</code> represents a note/page that will be saved to disk.</p>
-<div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-<p>This object is an abstract base class and should be implemented for each <code>Page</code> type.</p>
-</div>
-
-
-
-
-  <div class="doc doc-children">
-
-
-
-
-
-
-  <div class="doc doc-object doc-attribute">
-
-
-
-<h3 id="tembo.journal.pages.Page.path" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">path</span><span class="p">:</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span></code>
-
-  <span class="doc doc-properties">
-      <small class="doc doc-property doc-property-property"><code>property</code></small>
-      <small class="doc doc-property doc-property-readonly"><code>readonly</code></small>
-  </span>
-
-<a href="#tembo.journal.pages.Page.path" class="headerlink" title="Permanent link">¤</a></h3>
-
-    <div class="doc doc-contents ">
-
-      <p>When implemented this should return the full path of the page including the filename.</p>
-
-<p><strong>Returns:</strong></p>
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>pathlib.Path</code></td>
-      <td><p>the path as a <a href="https://docs.python.org/3/library/pathlib.html#pathlib.Path">Path</a> object.</p></td>
-    </tr>
-  </tbody>
-</table>      <div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-</div>
-<p>This property is abstract and should be implemented for each <code>Page</code> type.</p>
-    </div>
-
-  </div>
-
-
-
-
-
-
-  <div class="doc doc-object doc-method">
-
-
-
-<h3 id="tembo.journal.pages.Page.__init__" class="doc doc-heading">
-<code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">page_content</span><span class="p">)</span></code>
-
-  <span class="doc doc-properties">
-      <small class="doc doc-property doc-property-special"><code>special</code></small>
-  </span>
-
-<a href="#tembo.journal.pages.Page.__init__" class="headerlink" title="Permanent link">¤</a></h3>
-
-    <div class="doc doc-contents ">
-
-      <p>When implemented this should initalise a Page object.</p>
-
-<p><strong>Parameters:</strong></p>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Default</th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td><code>path</code></td>
-        <td><code>pathlib.Path</code></td>
-        <td><p>the full path of the page including the filename as a
-<a href="https://docs.python.org/3/library/pathlib.html#pathlib.Path">Path</a>.</p></td>
-        <td><em>required</em></td>
-      </tr>
-      <tr>
-        <td><code>page_content</code></td>
-        <td><code>str</code></td>
-        <td><p>the contents of the page.</p></td>
-        <td><em>required</em></td>
-      </tr>
-  </tbody>
-</table>      <div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-</div>
-<p>This method is abstract and should be implemented for each <code>Page</code> type.</p>
-
-        <details class="quote">
-          <summary>Source code in <code>tembo/journal/pages.py</code></summary>
-          <div class="highlight"><pre><span></span><code><span class="nd">@abstractmethod</span>
-<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">page_content</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    When implemented this should initalise a Page object.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        path (pathlib.Path): the full path of the page including the filename as a</span>
-<span class="sd">            [Path][pathlib.Path].</span>
-<span class="sd">        page_content (str): the contents of the page.</span>
-
-<span class="sd">    !!! abstract</span>
-<span class="sd">    This method is abstract and should be implemented for each `Page` type.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">raise</span> <span class="ne">NotImplementedError</span>
-</code></pre></div>
-        </details>
-    </div>
-
-  </div>
-
-
-
-  <div class="doc doc-object doc-method">
-
-
-
-<h3 id="tembo.journal.pages.Page.save_to_disk" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">save_to_disk</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></code>
-
-
-<a href="#tembo.journal.pages.Page.save_to_disk" class="headerlink" title="Permanent link">¤</a></h3>
-
-    <div class="doc doc-contents ">
-
-      <p>When implemented this should save the page to disk.</p>
-
-<p><strong>Returns:</strong></p>
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>tembo.utils.Success</code></td>
-      <td><p>A Tembo <a href="../../utils/__init__/#tembo.utils.__init__.Success">Success</a> object.</p></td>
-    </tr>
-  </tbody>
-</table>      <div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-</div>
-<p>This method is abstract and should be implemented for each <code>Page</code> type.</p>
-
-        <details class="quote">
-          <summary>Source code in <code>tembo/journal/pages.py</code></summary>
-          <div class="highlight"><pre><span></span><code><span class="nd">@abstractmethod</span>
-<span class="k">def</span> <span class="nf">save_to_disk</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">tembo</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">Success</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    When implemented this should save the page to disk.</span>
-
-<span class="sd">    Returns:</span>
-<span class="sd">        tembo.utils.Success: A Tembo [Success][tembo.utils.__init__.Success] object.</span>
-
-<span class="sd">    !!! abstract</span>
-<span class="sd">    This method is abstract and should be implemented for each `Page` type.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">raise</span> <span class="ne">NotImplementedError</span>
-</code></pre></div>
-        </details>
-    </div>
-
-  </div>
-
-
-
-
-
-  </div>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="doc doc-object doc-class">
-
-
-
-<h2 id="tembo.journal.pages.PageCreator" class="doc doc-heading">
-        <code>
-PageCreator        </code>
-
-
-
-<a href="#tembo.journal.pages.PageCreator" class="headerlink" title="Permanent link">¤</a></h2>
-
-    <div class="doc doc-contents ">
-
-      <p>A PageCreator factory base class.</p>
-<p>This factory should implement methods to create <a href="#tembo.journal.pages.Page">Page</a> objects.</p>
-<div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-<p>This factory is an abstract base class and should be implemented for each
-<a href="#tembo.journal.pages.Page">Page</a> type.</p>
-</div>
-<p>The private methods</p>
-<ul>
-<li><code>_check_base_path_exists()</code></li>
-<li><code>_convert_base_path_to_path()</code></li>
-<li><code>_load_template()</code></li>
-</ul>
-<p>are not abstract and are shared between all <a href="#tembo.journal.pages.Page">Page</a> types.</p>
-
-
-
-
-  <div class="doc doc-children">
-
-
-
-
-
-
-  <div class="doc doc-object doc-attribute">
-
-
-
-<h3 id="tembo.journal.pages.PageCreator.options" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">options</span><span class="p">:</span> <span class="n">PageCreatorOptions</span></code>
-
-  <span class="doc doc-properties">
-      <small class="doc doc-property doc-property-property"><code>property</code></small>
-      <small class="doc doc-property doc-property-readonly"><code>readonly</code></small>
-  </span>
-
-<a href="#tembo.journal.pages.PageCreator.options" class="headerlink" title="Permanent link">¤</a></h3>
-
-    <div class="doc doc-contents ">
-
-      <p>When implemented this should return the <code>PageCreatorOptions</code> on the class.</p>
-
-<p><strong>Returns:</strong></p>
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>PageCreatorOptions</code></td>
-      <td><p>the instance of
-    <a href="#tembo.journal.pages.PageCreatorOptions">PageCreatorOptions</a> set on the class.</p></td>
-    </tr>
-  </tbody>
-</table>      <div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-</div>
-<p>This method is abstract and should be implemented for each
-<a href="#tembo.journal.pages.Page">Page</a> type.</p>
-    </div>
-
-  </div>
-
-
-
-
-
-
-  <div class="doc doc-object doc-method">
-
-
-
-<h3 id="tembo.journal.pages.PageCreator.__init__" class="doc doc-heading">
-<code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">options</span><span class="p">)</span></code>
-
-  <span class="doc doc-properties">
-      <small class="doc doc-property doc-property-special"><code>special</code></small>
-  </span>
-
-<a href="#tembo.journal.pages.PageCreator.__init__" class="headerlink" title="Permanent link">¤</a></h3>
-
-    <div class="doc doc-contents ">
-
-      <p>When implemented this should initialise the <code>PageCreator</code> factory.</p>
-
-<p><strong>Parameters:</strong></p>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Default</th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td><code>options</code></td>
-        <td><code>PageCreatorOptions</code></td>
-        <td><p>An instance of
-<a href="#tembo.journal.pages.PageCreatorOptions">PageCreatorOptions</a></p></td>
-        <td><em>required</em></td>
-      </tr>
-  </tbody>
-</table>      <div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-</div>
-<p>This method is abstract and should be implemented for each
-<a href="#tembo.journal.pages.Page">Page</a> type.</p>
-
-        <details class="quote">
-          <summary>Source code in <code>tembo/journal/pages.py</code></summary>
-          <div class="highlight"><pre><span></span><code><span class="nd">@abstractmethod</span>
-<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">options</span><span class="p">:</span> <span class="n">PageCreatorOptions</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    When implemented this should initialise the `PageCreator` factory.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        options (PageCreatorOptions): An instance of</span>
-<span class="sd">            [PageCreatorOptions][tembo.journal.pages.PageCreatorOptions]</span>
-
-<span class="sd">    !!! abstract</span>
-<span class="sd">    This method is abstract and should be implemented for each</span>
-<span class="sd">    [Page][tembo.journal.pages.Page] type.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">raise</span> <span class="ne">NotImplementedError</span>
-</code></pre></div>
-        </details>
-    </div>
-
-  </div>
-
-
-
-  <div class="doc doc-object doc-method">
-
-
-
-<h3 id="tembo.journal.pages.PageCreator.create_page" class="doc doc-heading">
-<code class="highlight language-python"><span class="n">create_page</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></code>
-
-
-<a href="#tembo.journal.pages.PageCreator.create_page" class="headerlink" title="Permanent link">¤</a></h3>
-
-    <div class="doc doc-contents ">
-
-      <p>When implemented this should create a <code>Page</code> object.</p>
-
-<p><strong>Returns:</strong></p>
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>Page</code></td>
-      <td><p>an implemented instance of <a href="#tembo.journal.pages.Page">Page</a> such as
-    <a href="#tembo.journal.pages.ScopedPage">ScopedPage</a>.</p></td>
-    </tr>
-  </tbody>
-</table>      <div class="admonition abstract">
-<p class="admonition-title">Abstract</p>
-</div>
-<p>This method is abstract and should be implemented for each
-<a href="#tembo.journal.pages.Page">Page</a> type.</p>
-
-        <details class="quote">
-          <summary>Source code in <code>tembo/journal/pages.py</code></summary>
-          <div class="highlight"><pre><span></span><code><span class="nd">@abstractmethod</span>
-<span class="k">def</span> <span class="nf">create_page</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Page</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    When implemented this should create a `Page` object.</span>
-
-<span class="sd">    Returns:</span>
-<span class="sd">        Page: an implemented instance of [Page][tembo.journal.pages.Page] such as</span>
-<span class="sd">            [ScopedPage][tembo.journal.pages.ScopedPage].</span>
-
-<span class="sd">    !!! abstract</span>
-<span class="sd">    This method is abstract and should be implemented for each</span>
-<span class="sd">    [Page][tembo.journal.pages.Page] type.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">raise</span> <span class="ne">NotImplementedError</span>
-</code></pre></div>
-        </details>
-    </div>
-
-  </div>
-
-
-
-
-
-  </div>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="doc doc-object doc-class">
-
-
-
 <h2 id="tembo.journal.pages.PageCreatorOptions" class="doc doc-heading">
         <code>
 PageCreatorOptions        </code>
@@ -1602,7 +1046,7 @@ PageCreatorOptions        </code>
     <div class="doc doc-contents ">
 
       <p>Options <a href="https://docs.python.org/3/library/dataclasses.html#dataclasses.dataclass">dataclass</a> to create a Page.</p>
-<p>This is passed to an implemented instance of <a href="#tembo.journal.pages.PageCreator">PageCreator</a></p>
+<p>This is passed to an implemented instance of [PageCreator][tembo.journal.pages.PageCreator]</p>
 
 <p><strong>Attributes:</strong></p>
 <table>
@@ -1704,7 +1148,7 @@ to the template path.</p></td>
 
 <h2 id="tembo.journal.pages.ScopedPage" class="doc doc-heading">
         <code>
-ScopedPage            (<a title="tembo.journal.pages.Page" href="#tembo.journal.pages.Page">Page</a>)
+ScopedPage            (<a title="tembo.journal.abstract.Page" href="../abstract/#tembo.journal.abstract.Page">Page</a>)
         </code>
 
 
@@ -1725,12 +1169,6 @@ ScopedPage            (<a title="tembo.journal.pages.Page" href="#tembo.journal.
     </tr>
   </thead>
   <tbody>
-      <tr>
-        <td><code>path</code></td>
-        <td><code>pathlib.Path</code></td>
-        <td><p>a <a href="https://docs.python.org/3/library/pathlib.html#pathlib.Path">Path</a> object of the page's filepath including the
-filename.</p></td>
-      </tr>
       <tr>
         <td><code>page_content</code></td>
         <td><code>str</code></td>
@@ -1939,9 +1377,8 @@ ScopedPage(&quot;/home/bob/tembo/meetings/my_meeting_0.md&quot;)
   <tbody>
       <tr>
         <td><code>exceptions.ScopedPageAlreadyExists</code></td>
-        <td><p>If the page already exists a
-<a href="../../exceptions/#tembo.exceptions.ScopedPageAlreadyExists">ScopedPageAlreadyExists</a> exception
-is raised.</p></td>
+        <td><p>Raises
+<a href="../../exceptions/#tembo.exceptions.ScopedPageAlreadyExists">ScopedPageAlreadyExists</a> if the page already exists.</p></td>
       </tr>
   </tbody>
 </table>
@@ -1968,9 +1405,8 @@ is raised.</p></td>
 <span class="sd">    Save the scoped page to disk and write the `page_content`.</span>
 
 <span class="sd">    Raises:</span>
-<span class="sd">        exceptions.ScopedPageAlreadyExists: If the page already exists a</span>
-<span class="sd">            [ScopedPageAlreadyExists][tembo.exceptions.ScopedPageAlreadyExists] exception</span>
-<span class="sd">            is raised.</span>
+<span class="sd">        exceptions.ScopedPageAlreadyExists: Raises</span>
+<span class="sd">            [ScopedPageAlreadyExists][tembo.exceptions.ScopedPageAlreadyExists] if the page already exists.</span>
 
 <span class="sd">    Returns:</span>
 <span class="sd">        tembo.utils.Success: A [Success][tembo.utils.__init__.Success] with the path of the</span>
@@ -2008,7 +1444,7 @@ is raised.</p></td>
 
 <h2 id="tembo.journal.pages.ScopedPageCreator" class="doc doc-heading">
         <code>
-ScopedPageCreator            (<a title="tembo.journal.pages.PageCreator" href="#tembo.journal.pages.PageCreator">PageCreator</a>)
+ScopedPageCreator            (<a title="tembo.journal.abstract.PageCreator" href="../abstract/#tembo.journal.abstract.PageCreator">PageCreator</a>)
         </code>
 
 
@@ -2326,7 +1762,7 @@ template file is specified but not found.</p></td>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../__init__/" class="md-footer__link md-footer__link--prev" aria-label="Previous: __init__.py" rel="prev">
+        <a href="../abstract/" class="md-footer__link md-footer__link--prev" aria-label="Previous: abstract.py" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2335,7 +1771,7 @@ template file is specified but not found.</p></td>
               <span class="md-footer__direction">
                 Previous
               </span>
-              __init__.py
+              abstract.py
             </div>
           </div>
         </a>
