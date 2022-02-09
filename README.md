@@ -7,13 +7,13 @@
 
 A simple folder organiser for your work notes.
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tembo-core/tembo-notes/build?style=flat-square)
-![Sonar Tests](https://img.shields.io/sonar/tests_tembo-core/tembo-notes/?compact_message&failed_label=failed&passed_label=passed&server=https%3A%2F%2Fsonarcloud.io&skipped_label=skipped&style=flat-square)
-![Sonar Coverage](https://img.shields.io/sonar/coverage_tembo-core/tembo-notes/?server=https%3A%2F%2Fsonarcloud.io&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tembo-core/tembo-notes/analysis?style=flat-square)
+![Sonar Tests](https://img.shields.io/sonar/tests/tembo-core_tembo-notes?compact_message&failed_label=failed&passed_label=passed&server=https%3A%2F%2Fsonarcloud.io&skipped_label=skipped&style=flat-square)
+![Sonar Coverage](https://img.shields.io/sonar/coverage/tembo-core_tembo-notes?server=https%3A%2F%2Fsonarcloud.io&style=flat-square)
 ![PyPI](https://img.shields.io/pypi/v/tembo?style=flat-square)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tembo?style=flat-square)
 
-Read the documentation here: <https://tembo-pages.github.io/tembo-core/>.
+Read the documentation here: <https://tembo-core.github.io/tembo-notes/>.
 ## config.yml
 
 ```yaml
