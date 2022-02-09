@@ -2,11 +2,11 @@
 
 # Repository
 site_name: Tembo
-site_url: https://tembo-pages.github.io/tembo-core/
+site_url: https://tembo-core.github.io/tembo-notes/
 site_description: "Tembo: A simple folder organiser for your work notes."
 site_author: Daniel Tomlinson
-repo_url: https://github.com/tembo-pages/tembo-core
-repo_name: tembo-pages/tembo-core
+repo_url: https://github.com/tembo-core/tembo-notes
+repo_name: tembo-core/tembo-notes
 
 # Preview Controls
 # set use_directory_urls false if browsing locally
